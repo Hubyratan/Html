@@ -1,0 +1,82 @@
+TAGS DE FORMATACAO 
+--------------------------------------------------------------------------------------
+Simbolos
+--------------------------------------------------------------------------------------
+&lt; (<)
+&gt; (>)
+&le; (Menor Igual)
+&ge; (Maior Igual)
+
+&pound; Libras
+&yen; Yenes
+&euro; Euros
+
+&copy; Copyright
+&reg; Marca registrada
+&trade; Trade Mark
+
+&permil; pormil
+&sum; soma
+&times; mutiplicação
+&infin; infinito
+&plusmn; +ou-
+&oplus; + dentro de uma circunferencia
+&radic; raiz quadrada
+&ne; diferente
+&delta; delta minusculo
+&Delta; delta maiusculo
+&omega; omega
+&phi; phi
+
+&larr; seta para ->
+&rarr; seta para <-
+&uarr; seta para ^ 
+&darr; seta para  baixo
+&harr; seta dupla 
+
+--------------------------------------------------------------------------------------
+<br/> Quebra de linha.
+&nbsp; Espacos em branco.
+<wbr/> Palavras na borda do navegador podem ser quebradas. (OBS: deve ser colocada ..)
+Links
+&shy; Quebra de palavras com ifem (OBS: deve ser colocada entre silabas) palavras
+--------------------------------------------------------------------------------------
+Italico:
+--------------------------------------------------------------------------------------
+<i> Italico, somente letra inclinada.
+<em> Alem de italico, resultado semantico, termo ou palavra em enfase.
+--------------------------------------------------------------------------------------
+Negrito:
+<b> Negrito.
+<span style="font-weight: de 100 a 900 de nivel.
+--------------------------------------------------------------------------------------
+Texto deletado:
+<del> Texto cortado ao meio. (Com resultado semantico)
+<span style="text-decoration: line-through;"> TEXTO </span> (Sem resultado semantico)
+--------------------------------------------------------------------------------------
+Texto Sublinhado:
+Abaixo:
+<span style="text-decoration: underline;"> TEXTO </span>
+Acima:
+<span style="text-decoration: overline;"> TEXTO </span>
+--------------------------------------------------------------------------------------
+Texto sem decoração nenhuma:
+<span style="text-decoration: none;"> TEXTO </span>
+--------------------------------------------------------------------------------------
+Alinhando Todos os paragrafos entre style (p = Paragrafo.)
+
+<head>
+     <style>
+     p {
+         text-align: justify    =   Alinhamento justo.
+         tex-indent: 20px       =   Espacamento na primeira linha.
+     }
+     </style> 
+</head>
+--------------------------------------------------------------------------------------
+Exemplos de formatacao
+<sup> TEXTO </sup>  = Texto sobrescrito
+<sub> TEXTO </sub>  = Texto subescrito
+<code> CODIGO </code> = Sera formatado como codigo.
+<pre> TEXTO </pre> = Pre formatado, mostrara do jeito escrito.
+--------------------------------------------------------------------------------------

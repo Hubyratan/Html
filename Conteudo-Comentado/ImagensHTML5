@@ -1,0 +1,21 @@
+png > jpg
+
+*Para adicionar uma imagem:
+<img src="NOME"/> Se a imagem estiver no mesmo local do arquivo index.
+<img src="NOMEPASTA/IMAGEMNOME"/> 
+ 
+ *Delimitar imgs que fazem parte de conteudos.
+ <figure>
+        <img src="NOMEPASTA/IMAGEMNOME"/> 
+        <figcaption>
+             <h3>TITULO DA IMAGEM</h3>
+             <p>LEGENDA</p>
+        </figcaption>
+ </figure>
+ *Coloque sempre as imagens do site em uma sub pasta dentro do seu repositorio  com os 
+codigos pois na web nao havera caminho para o seu disco local ou pastas do seu pc.
+ 
+ *Para diminuir uma imagem diminua no pothoshop, de preferencia no formato para web, 
+ pois o arquivo ficara mais leve. Observe se o jpg, png estao sendo escritos 
+ corretamente.
+ 

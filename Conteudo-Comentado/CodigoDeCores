@@ -1,0 +1,37 @@
+
+------------------------------Dentro-de:------------------------------------------------
+<style> 
+      body {
+           background-image:    background
+           color:               Font color
+      } 
+</style>
+------------------------------Background------------------------------------------------
+      
+          background-color: green, yellow etc...;         
+Codigo exadecimal:
+          background-color: 
+          background-color: 
+Fundo como imagem:
+          background-image: url("nome da imagem") Fundo deve ser background.;
+ 
+ -----------------------------Color-Font------------------------------------------------
+
+ color: red, black, write, ETC..;
+ color: #60453E; (#000000)
+ color: rgb (35, 137, 195); (Vermelho, Verde, Azul)
+ color: rgba (0,0,0,0) Ultimo '0' sendo o valor de transparencia de 0 a 1. (V, V, A, T)
+ color: hsl (165, 81%, 93%) (Matriz, Saturacao, iluminosidade)
+ color: hsla (165, 81%, 93%, 1) (Matriz, Saturacao, iluminosidade, Alfa"Opacidade")
+ 
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+                             
+
+
+      
