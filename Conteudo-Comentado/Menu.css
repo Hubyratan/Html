@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Abra o arquivo css de estilo do site*/
+
+/*Defina o navegador menu como um bloco*/
+
+nav#menu {
+    display: block;
+}
+
+/*Crie a formatação de nav#menu ul*/
+
+nav#menu ul {
+    list-style: none; /*Some com os ul*/
+    text-transform: uppercase; /*Tds letras em maiusculo*/
+    position: absolute; /*Para passar em cima dos documentos*/
+    top: -20 /*Menu colado na aba (-)*/
+    left: 700 /* <-- -->*/
+}
+
+/*Crie a formatação de nav#menu li*/
+
+nav#menu li {
+    display: inline-block; /*Itens na horizontal*/
+    background-color: black; /*Cor do fundo*/
+    padding: 10px; /*Espaço dentro da caixa*/
+    margin: 20px; /*Espaço fora da caixa*/
+}
+
+/*Remova o texto "Menu Principal"*/
+
+/*Note que menu ainda ficara visivel nos mecanismos de busca*/
+
+nav#menu h1 {
+    display: none;
+}
