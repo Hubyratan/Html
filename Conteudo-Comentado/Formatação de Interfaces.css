@@ -1,0 +1,28 @@
+/*crie uma div para a interface com tudo dentro, menos o menu que esta em posicao absoluta */
+
+/*Delimitando a largura do conteudo e se nessecario adicionando uma cor*/
+
+/*Para centralizar utilize margin lembrando que o 1°px= cima 2°px= direita °3°px= baixo 4°px=esquerda*/
+
+/*Para adicionar uma sombra na margem utiliza box-shadow*/
+
+/*Para centraliza o texto utilize o padding. Para centralizar com as margens de todo tamanho adicione um valor se n, adicione 4px na mesma ordem de margin*/
+
+div#interface {
+    width: 800px;
+    background-color: black;
+    margin: -20px auto 0px auto;
+    box-shadow:  0px 0px 10px black;
+    padding: 10px;
+}
+
+/*Configurando img na pagina*/
+
+
+/*A imagen esta dentro do header cabecalho entt tenho que primeiro citalo*/
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 800;
+    top: 800;
+}
