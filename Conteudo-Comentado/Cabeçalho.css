@@ -1,0 +1,52 @@
+/*
+Defina uma area de cabecalho no proprio index.
+<header id="cabecalho">
+
+*Formate ela no CSS.
+Criando linha de separação
+
+border-top    = Borda de cima
+border-left   = Borda da esquerda
+border-botton = Borda de baixo
+border-right  = Borda da direita
+
+Adicione uma imagem diretamente no cabeçalho utilizando background e url.
+Para voltar uma pasta utilize ".."
+Para nao repetir a imagem back groud utilize "no-repeat"
+Para posicionar a imagem adicione 1px para horizontal e 1px para vertical.
+*/
+
+header#cabecalho {
+    border-bottom: 0px black solid;
+    height: 150px;
+    background: url() no-repeat 0px 0px;
+}
+
+/*Para formatar h1 no cabeçalho*/
+/*paddnig espaço interno margin espaço externo*/
+/*Para configurar somente uma margem 
+
+margin-top    = Margem de cima
+margin-left   = Margem da esquerda
+margin-botton = Margem de baixo
+margin-right  = Margem da direita
+
+Para configurar todas as margens
+
+margin: 1°px= cima 2°px= direita °3°px= baixo 4°px=esquerda
+
+*/
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 80pt;
+    text-shadow: 1px 1px 1px black; /*Sombra*/
+}
+
+/*Para formatar h1 no cabeçalho*/
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    color: black
+    font-size: 60pt;
+}
