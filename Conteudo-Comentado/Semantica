@@ -1,0 +1,56 @@
+----------------Dentro do Proxi----------------
+
+*Conteudo principal
+/Coloque todo o conteudo principal dentro de :
+
+<section id="conteudoprincipal'>
+</section>
+
+*Conteudo lateral
+/Coloque todo o conteudo lateral dentro de :
+
+<aside id="conteudolateral">
+</aside>
+
+*Rodape
+/Conteudo do Rodape dentro de :
+
+<footer id="rodape">
+</footer>
+
+----------------Dentro do CSS-----------------
+
+*Faca a configuraçao do conteudo principal 
+utilizando: 
+
+section#conteudoprincipal {
+    display: block ;  /*Para que flutuem um ao
+    lado do outro*/
+    width: 000px; /*tamanho do corpo*/
+    float: left; /*Flutue do lado esquerdo*/
+    border-right: 1px solid black; /*borda*/
+    padding: 1px /*tamanho entre texto e borda*/
+}
+
+*Faca a configuraçao do conteudo lateral 
+utilizando: 
+
+aside#conteudolateral {
+     display: block ;  /*Para que flutuem um ao
+    lado do outro*/
+    width: 000px; /*tamanho do corpo*/
+    float: right; /*Flutue do lado direito*/
+}
+
+footer#rodape {
+    clear: both    /*Limpe a configuracao dos dois
+    lados, para que ele fique em baixo sem intervencao
+    da divisao*/
+    border-top: 1px solid black; /*borda acima do rodape*/
+
+}
+
+footer#rodape p {
+    text-aling: center; /*tudo dentro do paragrafo 
+    tem essa formataçao p=paragrafo*/
+}

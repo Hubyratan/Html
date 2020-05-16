@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Configure a tabela*/
+/*Para tirar os espaçamentos entre as celulas use border-spacing: 0px;*/
+/*Para centralizar a tabela use margin-left: auto; margin-right: auto;*/
+
+table#tabela {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Configurar linhas externas*/
+/*Espaçamento dentro de cada celula use padding dentro do td*/
+/*Para alinhamento dos textos*/
+
+table#tabela td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Crie duas formatações para colunas da direita e da esquerda utilizando td.coluna-esquerda*/
+/*Negrito font-weight: bolder;*/
+
+table#tabela td.coluna-esquerda {
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+table#tabela td.coluna-direita {
+    color: black;
+    background-color: white;   
+}
+
+/*Formataçao do (caption)titulo da tabela*/
+
+table#tabela caption {
+    color: black;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
